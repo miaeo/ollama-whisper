@@ -88,7 +88,7 @@ Coloque seu áudio na pasta do script, em formatos `.wav` ou `.mp3`, e execute o
 "Aqui vai o texto completo transcrito do seu áudio."
 
 ————  Pontos-chave:  ————
-- Primeiro ponto importante.
-- Segundo ponto relevante.
-- Terceiro ponto destacado.
+- Primeiro ponto.
+- Segundo ponto.
+- Terceiro ponto.
 ```
