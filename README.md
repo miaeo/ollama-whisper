@@ -17,14 +17,23 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 ## Instalação
 
-### 1. Clone o repositório
+### 1. Configure o FFmpeg
+
+Após download, faça a extração da pasta e copie o caminho da pasta `bin`. Exemplo:
+
+```bash
+C:\ffmpeg\bin
+```
+Adicione este caminho nas varíaveis de ambiente do Windows.
+
+### 2. Clone o repositório
 
 ```bash
 git clone https://github.com/miaeo/whisper-ollama-projeto.git
 cd whisper-ollama-projeto
 ```
 
-### 2. (Opcional) Crie um ambiente virtual
+### 3. (Opcional) Crie um ambiente virtual
 
 ```bash
 python -m venv venv
@@ -35,11 +44,12 @@ No Powershell, ative seu ambiente virtual
 .\venv\Scripts\Activate.ps1
 ```
 
-### 3. Instale as dependências
+### 4. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## Execução
 
@@ -59,6 +69,26 @@ python whisper_ollama.py
 
 O script irá:
 
-- Transcrever o áudio usando Whisper.
-- Enviar o texto transcrito para o Ollama (modelo llama2).
+- Transcrever o áudio usando **Whisper**.
+- Enviar o texto transcrito para o **Ollama**.
 - Gerar e exibir um resumo com os pontos-chave.
+
+---
+
+## Exemplos de uso
+
+### Prepare seu arquivo de áudio
+
+Coloque seu áudio na pasta do script, em formatos `.wav` ou `.mp3`, e execute o script.
+
+### Saída esperada:
+
+```bash
+————  Texto transcrito:  ————
+"Aqui vai o texto completo transcrito do seu áudio."
+
+————  Pontos-chave:  ————
+- Primeiro ponto importante.
+- Segundo ponto relevante.
+- Terceiro ponto destacado.
+```
