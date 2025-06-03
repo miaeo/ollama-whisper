@@ -1,1 +1,1 @@
-# audio_com_ollama
+# whisper_ollama
