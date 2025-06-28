@@ -1,4 +1,4 @@
-# whisper_ollama
+# ollama-whisper
 
 Projeto simples de **transcrição de áudio** utilizando o modelo `Whisper` e de geração de resumos com pontos chave com **Ollama**, executado localmente. Desenvolvido para a disciplina de Tópicos Avançados em Sistemas para Internet I.
 
